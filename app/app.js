@@ -12,6 +12,6 @@ function config($stateProvider, $urlRouterProvider) {
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'app/views/main.html'
+    template: 'app/views/main.html'
   });
 }
