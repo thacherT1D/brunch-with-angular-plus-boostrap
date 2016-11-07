@@ -9,6 +9,10 @@ Create a new Angular 1.5 application (with ES6) based on this Brunch skeleton an
 ```shell
 brunch new path/to/app --skeleton thacherT1D/with-angular-plus-bootstrap
 ```
+```shell
+cd path/to/app
+npm start
+```
 
 Open the application in your default browser.
 
