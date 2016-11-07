@@ -1,9 +1,9 @@
 import angular from 'angular'
 import bootstrap from 'bootstrap'
-// import uiRouter from 'angular-ui-router'
-import ngRoute from 'angular-route'
+import uiRouter from 'angular-ui-router'
+// import ngRoute from 'angular-route'
 
-angular.module('my-app', [bootstrap, ngRoute])
+angular.module('my-app', [bootstrap, uiRouter])
   .config(['$stateProvider', ($stateProvider) => {
     $stateProvider
       .state('home', {
