@@ -4,15 +4,14 @@ import uiRouter from 'angular-ui-router'
 // import ngRoute from 'angular-route'
 
 angular.module('my-app', [bootstrap, uiRouter])
-  .config(['$stateProvider', ($stateProvider) => {
-    $stateProvider
-      .state('home', {
-        url: '',
-        templateUrl: 'views/main.html',
-      })
-      .state('main', {
-        url: '/',
-        templateUrl: 'views/main.html',
-      });
+  .config(config)
 
-    }]);
+function config($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/');
+
+  $stateProvider
+  .state('home', {
+    url: '/',
+    templateUrl: 'app/views/main.html'
+  });
+}
