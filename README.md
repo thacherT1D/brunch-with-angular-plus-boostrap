@@ -1,21 +1,13 @@
-## with-angular plus bootstrap
+## with-angular-plus-bootstrap
 
-Ken McGrady's Angular 1.x (using ES6) skeleton for Brunch + bootstrap
-
-## Dependencies
-
-Install the [Brunch](http://brunch.io) package globally with NPM.
-
-```shell
-npm install -g brunch
-```
+An Angular 1.x (using ES6) skeleton for Brunch + bootstrap
 
 ## Usage
 
 Create a new Angular 1.5 application (with ES6) based on this Brunch skeleton and install its dependencies.
 
 ```shell
-brunch new path/to/app --skeleton kmcgrady/with-angular
+brunch new path/to/app --skeleton thacherT1D/with-angular-plus-bootstrap
 ```
 
 Open the application in your default browser.
@@ -23,6 +15,10 @@ Open the application in your default browser.
 ```shell
 open http://localhost:8000/
 ```
+
+## Dependencies
+
+* [Brunch](http://brunch.io) package globally
 
 ## Resources
 
