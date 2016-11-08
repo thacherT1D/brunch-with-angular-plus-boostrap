@@ -1,4 +1,4 @@
 import angular from 'angular'
-import bootstrap from 'bootstrap'
+import materialize from 'angular-material'
 
-angular.module('my-app', [bootstrap]);
+angular.module('my-app', [materialize]);
